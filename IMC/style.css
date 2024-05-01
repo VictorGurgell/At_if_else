@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-image: url(pexels-michael-li-483163181-16030012.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}  
+
+div {
+    background-color: #3d87e780;
+    margin-top: 20%;
+    width: 300px;
+    height: 90px;
+    border-radius: 10px;
+}

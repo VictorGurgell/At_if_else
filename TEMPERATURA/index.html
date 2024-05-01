@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Tela</title>
+</head>
+<body>
+    <center>
+    <form action="script.php" method="post"><br>
+        <h1>Diagnóstico da</h1>
+
+        <div class="form-control">
+            <input type="value" name="meuInput" id="meuInput" required="" maxlength="2">
+            <label>
+                <span style="transition-delay:0ms">T</span>
+                <span style="transition-delay:50ms">e</span>
+                <span style="transition-delay:100ms">m</span>
+                <span style="transition-delay:150ms">p</span>
+                <span style="transition-delay:200ms">e</span>
+                <span style="transition-delay:250ms">r</span>
+                <span style="transition-delay:300ms">a</span>
+                <span style="transition-delay:350ms">t</span>
+                <span style="transition-delay:400ms">u</span>
+                <span style="transition-delay:450ms">r</span>
+                <span style="transition-delay:500ms">a</span>
+            </label><label class="pos">o</label>
+        </div>
+
+        <input type="submit" value="Ver resultado" class="button-1" role="button">
+
+    </form>
+    </center>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#meuInput').on('focus', function(){
+                $('.pos').show();
+            });
+        });
+    </script>
+</body>
+</html>

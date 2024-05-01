@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-image: url(pexels-michael-li-483163181-16030012.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+form {
+    background-color: #3d87e79f;
+    margin-top: 11%;
+    width: 300px;
+    height: 470px;
+    border-radius: 10px;
+    background-color {opacity: 0.5;}
+}
+label {
+  font-size: 20px;
+}
+.num {
+    border: 0px;
+}
+
+.button-1 {
+  background-color: rgb(12, 64, 35);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #000000;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 190px;
+  }
+  
+  .form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #000000 solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: rgb(13, 36, 23);
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .form-control label span {
+    display: inline-block;
+    font-size: 20px;
+    min-width: 5px;
+    color: #000000;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .form-control input:focus+label span,
+  .form-control input:valid+label span {
+    color: rgb(13, 36, 23);
+    transform: translateY(-30px);
+  }
+
+  .pos {
+    display: none;
+    position: absolute;
+    margin-top: -6px;
+    right: 130px;
+    color: rgb(255, 255, 255);
+  }

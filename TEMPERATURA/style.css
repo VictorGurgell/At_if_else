@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-image: url(wallpaperbetter.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+div {
+    background-color: #181120;
+    margin-top: 18%;
+    width: 300px;
+    height: 290px;
+    border-radius: 10px;
+}
